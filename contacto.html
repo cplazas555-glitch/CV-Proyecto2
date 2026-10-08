@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | Carlos Stiven Plazas Díaz</title>
+
+    <meta name="description"content="Página de contacto de Carlos Stiven Plazas Díaz.">
+
+    <meta name="keywords"content="contacto, Carlos Stiven Plazas Díaz, formulario">
+
+    <meta name="author" content="Carlos Stiven Plazas Díaz">
+</head>
+
+<body style="margin: 0; font-family: Arial, sans-serif; color: #222; line-height: 1.4;">
+
+    <header style="padding: 20px; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; border: 1px solid #333;">
+
+        <h1>Carlos Stiven Plazas Díaz</h1>
+
+        <nav style="display: flex;">
+            <ul style="display: flex; gap: 14px; list-style: none; padding: 0; margin: 0; flex-wrap: wrap;">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main style="padding: 20px;">
+
+        <section style="text-align: center; padding: 25px 10px; border-bottom: 1px solid #333;">
+
+            <h2>Contacto</h2>
+
+            <p>
+                Puedes comunicarte conmigo mediante los
+                siguientes datos o utilizando el formulario.
+            </p>
+
+        </section>
+
+
+        <!-- DOS COLUMNAS -->
+
+        <section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-bottom: 1px solid #333;">
+
+            <section style="padding: 20px; border-right: 1px solid #333;">
+
+                <h2>Información de contacto</h2>
+
+                <address>
+
+                    <p>
+                        <strong>Nombre:</strong>
+                        Carlos Stiven Plazas Díaz
+                    </p>
+
+                    <p>
+                        <strong>Correo:</strong>
+                        cplazas555@gmail.com
+                    </p>
+
+                    <p>
+                        <strong>Teléfono:</strong>
+                        322 349 2578
+                    </p>
+
+                </address>
+
+            </section>
+
+
+            <section>
+
+                <h2>Enviar mensaje</h2>
+
+                <form action="#" method="post" style="display: flex; flex-direction: column; gap: 10px;">
+
+                    <p>
+                        <label for="nombre">
+                            Nombre:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nombre"
+                            name="nombre"
+                            required
+                        >
+                    </p>
+
+
+                    <p>
+                        <label for="correo">
+                            Correo:
+                        </label>
+
+                        <input
+                            type="email"
+                            id="correo"
+                            name="correo"
+                            required
+                        >
+                    </p>
+
+
+                    <p>
+                        <label for="mensaje">
+                            Mensaje:
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            rows="6"
+                            required
+                        ></textarea>
+                    </p>
+
+
+                    <p>
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </p>
+
+                </form>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <footer style="padding: 24px; text-align: center; margin-top: 40px;">
+
+        <p>© 2026 Carlos Stiven Plazas Díaz</p>
+
+    </footer>
+
+</body>
+
+</html>
